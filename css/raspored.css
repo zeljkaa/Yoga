@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway',sans-serif;
+}
+html, body {
+	height: 100%;
+}
+
+
+/*
+---------------SECTION RASPORED NASLOVNA RED 1----------------------------------------------------------
+*/
+
+.raspored-1 {
+	min-height: 700px;
+	background-image: url(../img/noga.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.header-m h2 {
+	padding-top: 100px;
+	
+}
+
+.section-1 h2, p {
+	
+	padding-bottom: 20px;
+}
+
+
+
+
+/*
+---------------SECTION RASPORED, RED 2. -----------
+*/
+.nabrajanje {
+	padding: 80px 0;
+	background-color: #e8e15a;
+}
+.icon i {
+	width: 42px;
+	height: 42px;
+	background-color: white;
+	font-size: 21px;
+	line-height: 42px;
+	border-radius: 50px;
+	text-align: center;
+}
+
+.naslov h2 {
+	text-align: center;
+	font-family: 'Chronicle Display A', 'Chronicle Display B';
+}
+
+#p {
+	color: black;
+}
+
+/*
+---------------SECTION RASPORED za pocetnike, napre..RED 3. -----------
+*/
+
+.skloniBoju {
+	background-color: white;
+}
+
+/*
+-----------------------SECTION RASPORED TERMINI RED 4.---------------
+*/
+
+.termini {
+	
+	background-image: linear-gradient(to left, white, #F6E2D7);
+
+}
+.raspored-p {
+	padding: 60px 0 70px 0;
+	font-size: 17px;
+	border-right: 1px solid white;
+	color: black;
+
+}
+
+
+/*-------------------------FOOTER ZA SVE---------------------------------------*/
+
+footer {
+	width: 100%;
+	background-color: #222;
+	min-height: 60px;
+}
+.copiright p{
+	text-align: center;
+	color: lightgray;
+	line-height: 60px;
+	padding-bottom: 0px;
+}

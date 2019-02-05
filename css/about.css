@@ -1,0 +1,163 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway',sans-serif;
+}
+html, body {
+	height: 100%;
+}
+
+
+
+/*---------------     ABOUT.HTML NASLOVNA ddruga strana--------------------------------------------*/
+.onamaBg {
+	padding: 80px 0;
+}
+.centriraj-text {
+	text-align: center;
+	padding-top: 40px;
+}
+.centriraj-text h2 {
+	font-size: 45px;
+	line-height: 54px;
+}
+.centriraj-text h3 {
+	font-size: 30px;
+	letter-spacing: 5px;
+	 font-weight: 500;
+	 line-height: 54px;
+}
+.centriraj-text p {
+	padding: 40px 0;
+	font-size: 17px;
+	word-spacing: 5px;
+	line-height: 30px;
+}
+
+/*
+---------------ABOUT.HTML SECTION izmedju naslovne i section 2-----------
+*/
+.section-1-izmedju {
+	background-color:  #e8e15a;
+
+}
+.okvir-about h2 {
+	margin: 50px 0;
+	text-align: center; 
+	font-family: 'Chronicle Display A', 'Chronicle Display B';
+	font-size: 50px;
+	text-transform: capitalize;
+}
+
+
+/*
+--------------- ABOUT.HTML TRENERI -----------
+*/
+.about-treneri {
+	padding-top: 60px;
+}
+
+.caption {
+	text-align: center;
+}
+.centar {
+	text-align: center;
+}
+.caption p {
+	text-align: justify;
+}
+
+
+
+/*JOGA ZA KORPORACIJE*/
+
+.joga-za-korporacije {
+	padding: 80px;
+	}
+.pozadina {
+	background-image: url("../img/ll.jpg");
+	background-position:right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+.pozadina h2 {
+	font-size: 45px;
+	line-height: 54px;
+	padding: 50px;
+}
+.pozadina p {
+	font-size: 17px;
+	word-spacing: 5px;
+}
+
+/*@media (max-width: 576px) {
+	.joga-za-korporacije {
+	padding: 20px;
+	}
+
+	.pozadina h2 {
+	font-size: 45px;
+	line-height: 54px;
+	padding: 20px;
+}
+
+	.ispodtrenera {
+		display: none;
+	}
+
+}*/
+
+
+
+
+
+/*
+---------------ABOUT.HTML SECTION ISPOD TRENERA-----------
+*/
+
+.ispodtrenera {
+	width: 100%;
+	height: 50%;
+	background-repeat: no-repeat;
+	background-image: url("../img/joga5.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.ispodtrenera-bg {
+	height: 50%;
+	width: 100%;
+
+}
+/*
+---------------ABOUT.HTML SECTION PRE-FOOTERA-----------
+*/
+.pre-footera {
+	padding: 60px 0;
+	background-image: url("../img/malaslika.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+	font-size: 17px;
+}
+
+
+
+/*-------------------------FOOTER ZA SVE---------------------------------------*/
+
+footer {
+	width: 100%;
+	background-color: #222;
+	min-height: 60px;
+}
+.copiright p{
+	text-align: center;
+	color: lightgray;
+	line-height: 60px;
+	padding-bottom: 0px;
+}

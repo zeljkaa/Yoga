@@ -1,0 +1,423 @@
+/*
+yellow color : #e8e15a;
+black color: #414042;
+font za Naslove: font-family: 'Chronicle Display A', 'Chronicle Display B';
+font size za P elemente: 17px;
+font size za Headinge: 50px;
+;
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway',sans-serif;
+}
+body {
+	overflow-x: hidden;
+}
+
+.duration{
+	animation-delay: .5s;
+	animation-duration: 1s;
+}
+
+.duration1 {
+	animation-delay: 1s;
+	animation-duration: .5s;
+}
+
+/* ----------------NAVIGACIJA-----------------*/
+nav {
+	width: 100%;
+	height: 40px;
+	background-color: transparent;
+	opacity: 0.5;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+	text-transform: uppercase;
+}
+
+nav li a:hover {
+	color: #e8e15a;
+	text-decoration: none;
+}
+
+nav li a {
+	color: black;
+	text-decoration: none;
+	line-height: 40px;
+	font-size: 22px;
+
+}
+
+/* ----------------NASLOVNA POCETNA----------------------------------------------------------------------*/
+span {
+	font-family: 'Monoton', cursive;
+	display: inline-block;
+	color: #e8e15a;
+	font-size: 120px;
+
+}
+.home {
+	width: 100%;
+	height: 100%;
+}
+.home-bg {
+	background: url("../img/join.jpg");
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.home-content {
+	text-align: center;
+	padding-top: 80px;
+}
+
+.home-content h1 {
+	font-size: 100px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	color: #414042;
+}
+.home-content h3{
+	font-size: 55px;
+	color:#414042;
+	padding-bottom: 30px;
+	text-transform: capitalize;
+}
+
+.button button{
+	padding: 10px 20px 10px 20px;
+	font-size: 22px;
+	background-color: #212529;
+	border: none;
+	opacity: 0.8;
+	color: #fff;
+	transition: 0.7s;
+	cursor: pointer;
+	margin-top: 30px;
+	margin-left: 5px;
+	border-radius: 15px;
+}
+.button button a {
+	color: white;
+	text-decoration: none;
+
+}
+.button button:hover {
+	color: black;
+	background-color: #e8e15a;
+	
+}
+
+/*media query ne radi*/
+
+@media (max-width: 768px) {
+	.home-content h1 {
+	font-size: 70px;
+	letter-spacing: 0px;
+}
+
+	.span {
+	font-size: 90px;
+}
+}
+@media (max-width: 576px) {
+	.home-content h1 {
+	font-size: 50px;
+}
+
+	.span {
+	font-size: 50px;
+}
+
+	.button button{
+	padding: 5px 10px 5px 10px;
+	
+	}
+}
+/*
+----------------EMPTY DIV--------------*/
+.empty {
+	width: 110px;
+	height: 3px;
+	background-color: #414042;
+	margin: 30px auto 50px auto;
+}
+
+/*--------------- POCETNA SECTION 2---------------------*/
+.section-1 {
+	background-color: #FFDB5B;
+	padding: 40px 0 60px 0;
+}
+
+.header-m h2 {
+	text-align: center;
+	font-size: 60px;
+	color: #414042;
+	font-family: 'Chronicle Display A', 'Chronicle Display B';
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.content-p p {
+	text-align: center;
+	padding-left: 80px;
+	padding-right: 80px;
+	font-size: 16px;
+}
+.quote-p {
+	text-align: center;
+	padding: 40px 0 40px 0;
+}
+.quote-p h4 {
+	font-size: 26px;
+	padding-bottom: 20px;
+}
+
+.oo {
+  color: black;
+  font-size: 50px;
+}
+
+
+
+/*----------------------- POCETNA/ SEKCIJA SA KRIVOM SLIKOM -----------------*/
+
+.wrapper-about {
+	float: left;
+	height: 700px;
+}
+
+.spoljasnji-about {
+	height: 100%;
+	width: 100%;
+	display: table;
+}
+
+.unutrasnji-about {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.empty-line {
+	width: 40px;
+	height: 3px;
+	background-color: #e8e15a;
+	margin-bottom: 25px;	
+}
+.content-about h2 {
+	font-size: 40px;
+}
+
+.paragraph p {
+	margin-bottom: 30px;
+	font-size: 17px;
+}
+
+.right-side-about {
+	width: 60%;
+	height: 700px;
+	float: right;
+	background-image: url("../img/joga-naslovna.jpg");
+	border-left: 200px solid #fff;
+	border-top: 700px solid transparent;
+	margin: 70px 0 0 0;
+}
+
+.position {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+	background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+	.right-side-about {
+		display: none;
+	}
+	.unutrasnji-about {
+		padding: 20px;
+	}
+}
+
+/*
+------------------SECTION NASLOV YOGA 222222222-----------------*/
+.section-2 {
+	min-height: 700px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.wrapp-jedan {
+	height: 700px;
+	position: relative;	
+	cursor: pointer;
+	padding: 0px;
+}
+
+.wrapp-jedan img {
+	display: block;
+	height: 700px;
+}
+
+.no-pad {
+	padding: 0px;
+}
+
+/*.wrapp-preko {
+	position: absolute;
+	height: 700px;
+	width: 0px;
+	background-color: lightblue;
+	opacity: 0.85;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	transition: 0.5s ease;
+}
+
+.wrapp-preko h2 {
+	color: #fff;
+	font-size: 50px;
+	border: 6px solid #fff;
+	padding: 10px 30px;
+}
+*/
+.wrapp-dva {
+	min-height: 700px;
+	background-color: #EDD4C2;
+	padding: 50px 50px 0 50px;
+
+}
+
+.wrapp-dva p {
+	font-size: 17px;
+	color: #414042;
+}
+
+.wrapp-dva h3 {
+	font-size: 60px;
+	font-family: 'Chronicle Display A', 'Chronicle Display B';
+	font-weight: 300;
+	letter-spacing: -2px;
+	text-transform: capitalize;
+	color: #414042;;
+}
+
+.empty-3 {
+	width: 90px;
+	height: 2px;
+	background-color:#414042;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+/*
+------------------SECTION SEMINAR 33333333333333-----------------*/
+.section-3{
+	background-color: #EDF6E9;
+
+}
+.wrapp-3j h3 {
+	font-size: 50px;
+	padding-top: 60px;
+}
+
+.wrapp-3j p {
+	font-size: 17px;
+}
+
+/*
+------------------SECTION RASPORED 44444444444----------------*/
+
+.section-4 {
+	background-color: #FFDB5B;;
+	min-height: 170px;
+}
+
+.wrap-4 h3 {
+	line-height: 170px;
+	font-size: 40px;
+	font-family: 'Chronicle Display A', 'Chronicle Display B';
+	font-weight: 300;
+	color:#414042;
+	text-align: center;
+	
+}
+
+
+
+
+/*-------------------SECTION raspored, termini...zadnja NA NASLOVNOJ 555555555555----------*/
+
+
+.section-5 {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.isti h2 {
+	text-align: center;
+	font-size: 35px;
+	padding-bottom: 40px;
+}
+
+.isti p {
+	padding: 30px 14px;
+	font-size: 17px;
+	text-align: justify;
+}
+.isti button {
+	background: transparent;
+	border: 1px solid black;
+	border-top-right-radius: 5px;
+	padding: 5px 22px;
+	color: black;
+}
+.isti button:hover {
+	background-color: #414042;
+}
+
+
+
+/*-------------------------FOOTER ZA SVE---------------------------------------*/
+
+footer {
+	width: 100%;
+	background-color: #222;
+	min-height: 60px;
+}
+.copiright p{
+	text-align: center;
+	color: lightgray;
+	line-height: 60px;
+	padding-bottom: 0px;
+}
+
+
+/*---------------     ABOUT.HTML NASLOVNA ddruga strana--------------------------------------------*/
+/*
+
+
+/*
+---------------CONTACT.HTML SECTION  ---------------------------------------------------------------
+*/
+
+
+/*
+---------------SECTION RASPORED NASLOVNA RED 1----------------------------------------------------------
+*/
+
